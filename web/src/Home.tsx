@@ -32,7 +32,7 @@ const formatInputText = (text: string) => {
     .join(' ');
 };
 
-export default function App() {
+export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
   const [inputName, setInputName] = useState("");
   const [khodamName, setKhodamName] = useState("");
